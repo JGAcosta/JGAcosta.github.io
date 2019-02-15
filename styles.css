@@ -1,34 +1,40 @@
-.header {
-  color: #FF7F50;
-  text-align: center;
-  font-family: 'Lobster', cursive;
-
 }
-
-.h2 {
-  color: orange;
-  text-align: center;
-  text-shadow: 3px red;
-  font-family: 'Lobster', cursive;
-
-  }
-
-.h3 {
-  color: brown;
-  text-align: center;
-  font-family: 'Lobster', cursive;
-
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
 }
-
-.h6 {
-  color: orange;
-  text-align: center;
-  font-family: 'Lobster', cursive;
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
 }
-
-body {
-  background-image: url(https://wallpapercave.com/wp/OfM6qTt.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
 }
