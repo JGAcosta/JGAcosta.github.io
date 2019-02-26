@@ -7,6 +7,7 @@ body{
   background-position: 50% 50%;
   margin:0;
   font-family: sans-serif;
+
 }
 .overlay{
   width:100%;
@@ -15,8 +16,36 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-h1{
   color:#fff;
-  font-size:100px;
+  flex-direction: column;
+}
+
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size:25px;
+  display: flex;
+  padding:20px;
+  color:rgba(255,255,255,0.5);
+
+}
+.top .left{
+  flex: 1 0 auto;
+  text-align: left;
+}
+.top .right{
+  flex: 1 1 auto;
+  text-align: right;
+}
+.time{
+  font-size:200px;
+  margin:0;
+  font-weight: 400;
+}
+.greeting{
+  font-size:80px;
+  font-weight: 400;
+  margin:0;
 }
